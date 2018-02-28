@@ -44,7 +44,7 @@ return [
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'foro_test'),
-            'username' => env('MYSQL_USER', env('DB_USERNAME', 'forge')),
+            'username' => env('MYSQL_USER', env('DB_USERNAME', '')),
             'password' => env('MYSQL_PASSWORD', env('DB_PASSWORD', '')),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
